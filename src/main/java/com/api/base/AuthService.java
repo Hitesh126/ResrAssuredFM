@@ -7,6 +7,7 @@ import com.api.models.request.SignUpRequest;
 
 import io.restassured.response.Response;
 
+// Validating Authentication Service
 public class AuthService extends BaseService {
 
 	private static final String BASE_PATH = "/api/auth/";
